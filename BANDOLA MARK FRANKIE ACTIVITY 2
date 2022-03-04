@@ -1,0 +1,199 @@
+package candymachine;
+import java.util.Scanner;
+ public class CandyShop {
+
+ public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+    
+    System.out.print(" MF Bandola's Candy Machine \n");
+    System.out.print("1. Candies \n");
+    System.out.print("2. Chips \n");
+    System.out.print("3. Gums \n");
+    System.out.print("4. Cookies \n");
+    
+    int a = input.nextInt();
+        if (a ==1) {
+        System.out.print("You have selected Candies. Here are the items available: \n");
+          System.out.print("1. Snow Bear - P2 \n");
+          System.out.print("2. Guava  - P2 \n");
+          System.out.print("3. Kopiko - P2 \n");
+          int b = input.nextInt();
+                    if (b==1) {
+            System.out.print("How Many Snow Bear Candies do you want? \n");
+            int c = input.nextInt();
+            int d = c * 2;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Snow Bear Candies \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if (b==2){
+            System.out.print("How Many Kopiko Candies do you want? \n");
+            int c = input.nextInt();
+            int d = c * 2;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Kopiko Candies \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if(b==3){
+            System.out.print("How Many Guava Candies do you want? \n");
+            int c = input.nextInt();
+            int d = c * 2;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Guava Candies \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+        }
+        else if (a== 2) {
+          System.out.print("You have selected Chips. Here are the items available: \n");
+          System.out.print("1. Craklings - P7 \n ");
+          System.out.print("2. Tattoos - P10 \n");
+          System.out.print("3. Pods - P6 \n");
+          
+          int b = input.nextInt();
+          
+          if (b==1) {
+            System.out.print("How Many Cracklings do you want? \n");
+            int c = input.nextInt();
+            int d = c * 7;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Cracklings \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          
+          }
+          else if (b==2){
+            System.out.print("How Many Tattoos do you want? \n");
+            int c = input.nextInt();
+            int d = c * 10;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Tattoos  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if(b==3){
+            System.out.print("How Many  Pods  do you want? \n");
+            int c = input.nextInt();
+            int d = c * 6;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Pods \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+        }
+        else if (a== 3) {
+          System.out.print("You have selected Gums. Here are the items available: \n");
+          System.out.print("1. Bubble Joe - P2 \n ");
+          System.out.print("2. Judge - P2 \n");
+          System.out.print("3. Gumberry - P2 \n");
+          
+          int b = input.nextInt();
+          
+          else  if (b==1) {
+                  System.out.print("How Many Bubble Joe do you want? \n");
+                  
+            int c = input.nextInt();
+            int d = c * 2;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Bubble Joe  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if(b==2){
+                System.out.print("How Many Judge do you want? \n");
+            int c = input.nextInt();
+            int d = c * 2;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Judge  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if(b==3){
+                System.out.print("How Many Gumberry do you want? \n");
+            int c = input.nextInt();
+            int d = c * 2;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Gumberry  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+        }
+        else if (a == 4)
+         System.out.print("You have selected Cookies. Here are the items available: \n");
+          System.out.print("1. Chocolate Chips - P45 \n ");
+          System.out.print("2. Cookie Feels - P152 \n");
+          System.out.print("3. Quaker Cookie - P45 \n");
+          
+          int b = input.nextInt();
+          
+          else  if (b==1) {
+                  System.out.print("How Chocolate Chips do you want? \n");
+                  
+            int c = input.nextInt();
+            int d = c * 45;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Chocolate Chips  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if(b==2){
+                System.out.print("How Many Cookie Feels do you want? \n");
+            int c = input.nextInt();
+            int d = c * 152;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Cookie Feels  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+          else if(b==3){
+                System.out.print("How Many Quaker Cookie do you want? \n");
+            int c = input.nextInt();
+            int d = c * 45;
+            System.out.print("Please pay the amount of P" + d + " for " + c + " Quaker Cookie  \n");
+            int e = input.nextInt();
+            if (d== e) {
+              System.out.print("Thank You for Purchasing. Dont have a good day, Have a great day!!");
+            } else {
+              System.out.print("Sorry Insuficient Balance, Please try again. ");
+            }
+          }
+        }
+      
+      
+      
